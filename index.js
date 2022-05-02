@@ -25,7 +25,6 @@ const fs = require('fs')
 const morgan = require('morgan')
 const logdb = require('./src/services/database.js')
 app.use(express.json());
-// Server port
 const port = args.port || args.p || process.env.PORT || 5000
 // If --log=false then do not create a log file
 if (args.log == 'false') {
