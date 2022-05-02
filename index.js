@@ -15,7 +15,6 @@ server.js [options]
 
 --help, -h	Return this message and exit.
 `)
-// If --help, echo help text and exit
 if (args.help || args.h) {
     console.log(help)
     process.exit(0)
