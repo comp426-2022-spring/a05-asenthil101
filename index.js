@@ -37,7 +37,6 @@ if (args.log == 'false') {
     const accessLog = fs.createWriteStream( logdir+'access.log', { flags: 'a' })
     app.use(morgan('combined', { stream: accessLog }))
 }
-// Always log to database
 app.use((req, res, next) => {
     let logdata = {
         remoteaddr: req.ip,
