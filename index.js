@@ -23,7 +23,6 @@ var express = require('express')
 var app = express()
 const fs = require('fs')
 const morgan = require('morgan')
-// Require database SCRIPT file
 const logdb = require('./src/services/database.js')
 // Make Express use its own built-in body parser
 // Allow urlencoded body messages
