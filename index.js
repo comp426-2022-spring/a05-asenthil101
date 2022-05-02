@@ -22,7 +22,6 @@ if (args.help || args.h) {
 var express = require('express')
 var app = express()
 const fs = require('fs')
-// Require morgan
 const morgan = require('morgan')
 // Require database SCRIPT file
 const logdb = require('./src/services/database.js')
