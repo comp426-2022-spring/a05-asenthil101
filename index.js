@@ -137,7 +137,6 @@ if (args.debug || args.d) {
     })
 }
 
-// Default API endpoint that returns 404 Not found for any endpoints that are not defined.
 app.use(function(req, res){
     const statusCode = 404
     const statusMessage = 'NOT FOUND'
