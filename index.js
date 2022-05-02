@@ -29,7 +29,6 @@ const port = args.port || args.p || process.env.PORT || 5000
 if (args.log == 'false') {
     console.log("NOTICE: not creating file access.log")
 } else {
-// Use morgan for logging to files
     const logdir = './log/';
 
     if (!fs.existsSync(logdir)){
