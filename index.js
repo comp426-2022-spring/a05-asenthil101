@@ -1,5 +1,3 @@
-
-// Require minimist module (make sure you install this one via npm).
 // Require minimist module
 const args = require('minimist')(process.argv.slice(2))
 // See what is stored in the object produced by minimist
