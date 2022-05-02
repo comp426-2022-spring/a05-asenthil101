@@ -24,7 +24,6 @@ var app = express()
 const fs = require('fs')
 const morgan = require('morgan')
 const logdb = require('./src/services/database.js')
-// Allow urlencoded body messages
 //app.use(express.urlencoded({ extended: true }));
 // Allow json body messages
 app.use(express.json());
