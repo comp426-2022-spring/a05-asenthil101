@@ -76,7 +76,6 @@ function countFlips(array) {
     });
     return counter;
 }
-// Call a coin flip
 function flipACoin(call) {
     let flip = coinFlip();
     let result;
