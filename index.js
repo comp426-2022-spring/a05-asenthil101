@@ -146,7 +146,6 @@ app.use(function(req, res){
 const server = app.listen(port, () => {
     console.log("Server running on port %PORT%".replace("%PORT%",port))
 });
-// Tell STDOUT that the server is stopped
 process.on('SIGINT', () => {
     server.close(() => {
 		console.log('\nApp stopped.');
