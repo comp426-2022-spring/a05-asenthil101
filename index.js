@@ -92,7 +92,6 @@ function flipACoin(call) {
     return game
 }
 
-// Serve static HTML public directory
 app.use(express.static('./public'))
 
 // READ (HTTP method GET) at root endpoint /app/
