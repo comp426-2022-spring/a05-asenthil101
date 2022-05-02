@@ -35,7 +35,6 @@ if (args.log == 'false') {
         fs.mkdirSync(logdir);
     }
     const accessLog = fs.createWriteStream( logdir+'access.log', { flags: 'a' })
-// Set up the access logging middleware
     app.use(morgan('combined', { stream: accessLog }))
 }
 // Always log to database
