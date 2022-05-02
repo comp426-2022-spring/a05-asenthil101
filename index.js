@@ -94,7 +94,6 @@ function flipACoin(call) {
 
 app.use(express.static('./public'))
 
-// READ (HTTP method GET) at root endpoint /app/
 app.get("/app/", (req, res, next) => {
     res.json({"message":"Your API works! (200)"});
 	res.status(200);
