@@ -55,7 +55,6 @@ app.use((req, res, next) => {
     next();
 })
 
-// Flip one coin
 function coinFlip() {
     return (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails';
 }
