@@ -24,7 +24,6 @@ var app = express()
 const fs = require('fs')
 const morgan = require('morgan')
 const logdb = require('./src/services/database.js')
-// Allow json body messages
 app.use(express.json());
 // Server port
 const port = args.port || args.p || process.env.PORT || 5000
