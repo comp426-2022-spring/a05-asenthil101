@@ -1,5 +1,4 @@
 const args = require('minimist')(process.argv.slice(2))
-// Store help text 
 const help = (`
 server.js [options]
 
