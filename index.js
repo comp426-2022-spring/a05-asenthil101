@@ -99,7 +99,6 @@ app.get("/app/", (req, res, next) => {
 	res.status(200);
 });
 
-// corresponding to the results of the random coin flip.
 app.get('/app/flip/', (req, res) => {
     const flip = coinFlip()
     res.status(200).json({ "flip" : flip })
