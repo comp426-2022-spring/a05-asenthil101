@@ -21,7 +21,6 @@ if (args.help || args.h) {
 }
 var express = require('express')
 var app = express()
-// Require fs
 const fs = require('fs')
 // Require morgan
 const morgan = require('morgan')
